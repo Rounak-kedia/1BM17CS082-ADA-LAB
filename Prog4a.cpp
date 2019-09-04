@@ -15,7 +15,7 @@ void dfs(int v)
 }
 int main()
 {
-	cout<<"Enter the adjacency matrix : (n=8)\n";
+	cout<<"Enter the adjacency matrix : (n=5)\n";
 	for(int i=0;i<n;i++)
 		for(int j=0;j<n;j++)
 			cin>>adjacent[i][j];
