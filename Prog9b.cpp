@@ -32,7 +32,7 @@ void primMST(int **graph)
 				parent[v] = u, key[v] = graph[u][v]; 
 	}
 	printMST(parent, graph); 
-}sss
+}
 int main() 
 { 
 	cout<<"Enter the no of nodes : ";
